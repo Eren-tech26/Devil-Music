@@ -43,7 +43,7 @@ async def start_pm(client, message: Message, _):
     await asyncio.sleep(0.1)
     await loading_1.delete()
 
-    started_msg = await message.reply_text(text="<b>sᴛᴀʀᴛᴇᴅ...<a href='https://files.catbox.moe/figc46.mp4' target='_blank'>ㅤ ㅤㅤㅤ</a></b>")
+    started_msg = await message.reply_text(text="<b>sᴛᴀʀᴛᴇᴅ...<a href='https://i.ibb.co/G4TN8Tmk/photo-2025-08-02-08-15-45-7533898998311026696.jpg' target='_blank'>ㅤ ㅤㅤㅤ</a></b>")
     await asyncio.sleep(0.4)
     await started_msg.delete()
 
@@ -116,7 +116,7 @@ async def start_pm(client, message: Message, _):
         out = private_panel(_)
         await message.reply_text(
             text=(
-                 f"<b>ʏᴏᴏ {message.from_user.mention}, <a href='https://files.catbox.moe/figc46.mp4' target='_blank'>💥⚡</a></b>\n\n"
+                 f"<b>ʏᴏᴏ {message.from_user.mention}, <a href='https://i.ibb.co/G4TN8Tmk/photo-2025-08-02-08-15-45-7533898998311026696.jpg' target='_blank'>💥⚡</a></b>\n\n"
                  f"<b>ᴛʜɪs ɪs {app.mention}, ᴇʟᴇᴠᴀᴛᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ᴡɪᴛʜ ᴛʜɪs ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ ʙᴏᴛ.</b>\n\n"
                  f"<b>sᴛʀᴇᴀᴍ ʜɪɢʜ-ǫᴜᴀʟɪᴛʏ ᴍᴜsɪᴄ ᴅᴜʀɪɴɢ ʏᴏᴜʀ ᴄʜᴀᴛs ᴀɴᴅ sʜᴀʀᴇ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢs ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ʟᴏᴠᴇʟʏ ᴀᴛᴍᴏsᴘʜᴇʀᴇ!</b>"
             ),
